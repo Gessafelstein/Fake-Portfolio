@@ -1,0 +1,337 @@
+body .header-container {
+  background-color: rgba(34, 42, 54, 0.9490196078);
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/headerphoto.svg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 49.5%;
+}
+body .header-container .header-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+body .header-container .header-navigation ul {
+  display: flex;
+}
+body .header-container .header-navigation ul li {
+  display: flex;
+  justify-content: space-between;
+}
+body .header-container .header-navigation ul li .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+body .header-container .header-navigation button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  background: #676CDB;
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body .header-container .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 230px;
+  margin-top: 100px;
+}
+body .header-container .hero h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  color: #ffffff;
+}
+body .header-container .hero p {
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .header-container .hero p .span {
+  color: #ffffff;
+}
+body .header-container .hero .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 140px;
+  cursor: pointer;
+}
+body .header-container .hero .buttons .button1 {
+  background: #676CDB;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+}
+body .header-container .hero .buttons .button2 {
+  display: flex;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+}
+body .header-container .hero .buttons .button2 img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+body .icon-section {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 50px 130px;
+}
+body .experience {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #222A36;
+}
+body .experience .experience-year {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+body .experience .experience-year h1 {
+  align-items: flex-start;
+  color: #676CDB;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 40%;
+  padding-top: 20px;
+}
+body .experience .experience-year .experience-span {
+  margin-top: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 180%;
+  color: #ffffff;
+}
+body .experience .experience-heading {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+body .experience .experience-heading h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 180%;
+  color: #ffffff;
+}
+body .experience .experience-heading .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+body .experience .experience-heading .cards .card1 {
+  display: flex;
+  background-color: #676CDB;
+  width: 288px;
+  height: 295px;
+}
+body .experience .experience-heading .cards .card1 .card1-1 {
+  display: flex;
+  display: inline;
+  bottom: 50px;
+}
+body .experience .experience-heading .cards .card1 .card1-1 h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #ffffff;
+}
+body .experience .experience-heading .cards .card2 {
+  background-color: #C4C4C4;
+  width: 288px;
+  height: 295px;
+}
+body .experience .experience-heading .cards .card3 {
+  background-color: #C4C4C4;
+  width: 288px;
+  height: 295px;
+}
+body .about {
+  background-color: #2D3540;
+  width: 100%;
+}
+body .about .about-container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 100px 0px;
+}
+body .about .about-container .about-img {
+  margin-right: 15px;
+}
+body .about .about-container .about-heading {
+  margin-right: 120px;
+}
+body .about .about-container .about-heading h5 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  color: #C4C4C4;
+}
+body .about .about-container .about-heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  color: #ffffff;
+}
+body .about .about-container .about-heading img {
+  margin-top: 20px;
+}
+body .about .about-container .about-review {
+  display: flex;
+  flex-direction: column;
+}
+body .about .about-container .about-review h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin: 15px 0px;
+}
+body .about .about-container .about-review .procenti {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #676CDB;
+}
+body footer {
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer-container {
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body footer .footer-container .left {
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer-container .left h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120%;
+  color: #ffffff;
+}
+body footer .footer-container .left .left-icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 30px;
+}
+body footer .footer-container .right {
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer-container .right h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+body footer .footer-container .right span {
+  display: flex;
+  gap: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  color: #676CDB;
+}
+body footer p {
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 100px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+}
+body footer p span {
+  color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */
